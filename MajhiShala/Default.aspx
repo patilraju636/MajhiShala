@@ -12,12 +12,17 @@
         <table style="width: 100%;">
             <tr>
                 <td><h1>h1</h1></td>
-                <td>&nbsp;</td>
+                <td>
+                    <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
+                    </asp:Menu>
+                </td>
                 <td><h6>h6</h6></td>
             </tr>
             <tr>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td>
+                    <asp:RadioButton ID="RadioButton1" runat="server" />
+                </td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
